@@ -1,0 +1,45 @@
+.products{
+   display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------- Product Item ----------------- */
+@import url("../utils/productItem/productItem.css");
+
+.delete-all{
+    text-align: right;
+    margin: 20px;
+}
+.delete-all input{
+    height: 25px;
+    width: 25px;
+    transform: translateY(5px);
+    margin: 0 15px;
+}
+.delete-all span{
+    text-transform: uppercase;
+    color: rgb(3, 165, 206);
+    letter-spacing: 1.3px;
+}
+.delete-all button{
+    border: 1px solid crimson;
+    padding: 10px 25px;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+
+/* -------------------- Load More --------------- */
+.load_more{
+    text-align: center;
+}
+.load_more button{
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    text-transform: capitalize;
+}
